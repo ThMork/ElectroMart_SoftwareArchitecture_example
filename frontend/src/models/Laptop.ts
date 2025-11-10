@@ -1,5 +1,6 @@
 import { ProductType } from "./ProductType";
 
+
 export class Laptop {
   public title: string;
   public imageUrl: string;
@@ -18,3 +19,4 @@ export class Laptop {
     return Math.round((this.basePrice * (1 - this.discountRate)) * this.taxRate);
   }
 }
+
